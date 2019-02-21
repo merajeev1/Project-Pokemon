@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pokemon Cries</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="sounds.js"></script>
+    </head>
+    <body background="images/wallpaper.jpg">
+        <div id="container">
+            <div id="searchbox">
+                <p>Search A Pokemon</p>
+                <form>
+                    <input id="inputform" type="text" name="search">
+                    <button onclick="getdata()">Search</button>
+                </form>
+            </div>
+            <div id="mainbox">
+                <div class="imagerow">
+                    <img class="images" src="images/pikachu.png" alt="Pikachu" onclick="pikachusound()">
+                    <img class="images" src="images/charmender.png" alt="Charmender" onclick="charmendersound()">
+                    <img class="images" src="images/bulbasaur.png" alt="Bulbasaur" onclick="bulbasaursound()">
+                </div>
+                <div class="imagerow">
+                    <img class="images" src="images/snorlax.png" alt="Snorlax" onclick="snorlaxsound()">
+                    <img class="images" src="images/ditto.png" alt="Ditto" onclick="dittosound()">
+                    <img class="images" src="images/squiretle.png" alt="Squiretel" onclick="squiretlesound()">
+                </div>
+                <div class="imagerow">
+                    <img class="images" src="images/geodude.png" alt="Geodude" onclick="geodudesound()">
+                    <img class="images" src="images/growlith.png" alt="Growlith" onclick="growlithsound()">
+                    <img class="images" src="images/pidgey.png" alt="Pidgey" onclick="pidgeysound()">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.images{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: grey;
+}
+#container{
+    /*background: red;*/
+}
+#mainbox{
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 25%;
+    /*background: yellow;*/
+}
+#searchbox{
+    /*background: blue;*/
+    margin-left: 40%;
+}
+#searchbox p{
+    position: relative;
+    right: -50px;
+    color: wheat;
+}
+.imagerow{
+    /*background: green;*/
+    margin: 16px;
+}
